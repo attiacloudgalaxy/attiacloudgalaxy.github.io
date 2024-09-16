@@ -1,17 +1,6 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
-<nav>
-  <ul>
-    <li><a href="#objective">Objective</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
-  </ul>
-</nav>
-
-<link rel="stylesheet" href="style.css">
+  - jekyll-remote-theme # Make sure this line is indented correctly
 
 body {
     font-family: 'Arial', sans-serif;
